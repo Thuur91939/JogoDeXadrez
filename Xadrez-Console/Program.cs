@@ -6,6 +6,9 @@ internal class Program
 {
     private static void Main(string[] args)
     {
+        Console.SetWindowSize(40, 20);  
+        
+
         try
         {
             PartidaDeXadrez partida = new PartidaDeXadrez();
